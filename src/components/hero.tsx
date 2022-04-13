@@ -3,7 +3,7 @@ import { FunctionComponent } from "preact";
 const Hero: FunctionComponent = () => {
   return (
     <main
-      className="w-full h-[80vh] flex justify-center flex-col items-center bg-no-repeat bg-center mix-blend-overlay"
+      className="w-full h-[80vh] flex justify-center flex-col items-center bg-no-repeat bg-center mix-blend-screen z-10"
       style={{
         backgroundImage:
           "url(/bg.jpg),linear-gradient(to left, rgb(0 0 0 / 50%), rgb(0 0 0 / 0%), rgb(0 0 0 / 50%))",

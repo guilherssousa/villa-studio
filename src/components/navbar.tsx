@@ -6,7 +6,7 @@ const Navbar: FunctionalComponent = () => {
       <div className="w-full relative h-full text-white">
         <div className="w-full absolute h-full bg-gradient-to-t opacity-50 to-black from-transparent"></div>
 
-        <div className="max-w-screen-xl mx-auto px-8 relative flex items-center justify-between h-full text-xl">
+        <nav className="max-w-screen-xl mx-auto px-8 relative flex items-center justify-between h-full text-xl">
           <div className=" font-serif text-4xl md:text-5xl">
             <a className="cursor-pointer" href="/">
               V
@@ -25,7 +25,7 @@ const Navbar: FunctionalComponent = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
   );

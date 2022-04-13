@@ -1,20 +1,11 @@
-import { Logo } from './logo'
+import Hero from "./components/hero";
+import AboutUs from "./components/about-us";
 
 export function App() {
   return (
-    <>
-      <Logo />
-      <p>Hello Vite + Preact!</p>
-      <p>
-        <a
-          class="link"
-          href="https://preactjs.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Preact
-        </a>
-      </p>
-    </>
-  )
+    <div className="min-h-screen">
+      <Hero />
+      <AboutUs />
+    </div>
+  );
 }

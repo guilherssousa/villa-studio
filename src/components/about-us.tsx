@@ -47,7 +47,7 @@ const AboutUs: FunctionalComponent = () => {
         <div className="mt-8 md:mt-0">
           <p className="font-serif text-3xl">Compreensão</p>
           <p className="text-base mt-4 leading-6">
-            Formas falam e tem sua própria identidade e4 significados diferentes
+            Formas falam e tem sua própria identidade e significados diferentes
             para variados públicos. Vamos entender seu negócio e apontar o
             norte, além da beleza.
           </p>

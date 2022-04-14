@@ -24,7 +24,13 @@ const AboutUs: FunctionalComponent = () => {
           <div className="mt-8 md:mt-0 w-4/8 relative">
             <div className="hidden md:block absolute top-8 right-8 h-72 aspect-video w-auto border-8 border-yellow-600"></div>
             <div className="z-10 relative aspect-video w-full md:h-72 md:w-auto overflow-hidden flex items-center">
-              <img className="w-full object-fill" src="/section-2.jpg"></img>
+              <img
+                alt="Construímos relacinament para marcas."
+                height="288"
+                width="162"
+                className="w-full object-fill"
+                src="/section-2.jpg"
+              ></img>
             </div>
           </div>
         </div>

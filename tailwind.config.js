@@ -12,7 +12,7 @@ module.exports = {
         villa: "#121212",
       },
       backgroundImage: {
-        hero: "url('/bg.jpg')",
+        hero: "url('/bg.webp')",
       },
     },
   },

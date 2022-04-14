@@ -29,7 +29,7 @@ const AboutUs: FunctionalComponent = () => {
                 height="288"
                 width="162"
                 className="w-full object-fill"
-                src="/section-2.jpg"
+                src="/section-2.webp"
               ></img>
             </div>
           </div>

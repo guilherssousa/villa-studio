@@ -12,7 +12,7 @@ const Navbar: FunctionalComponent = () => {
               V
             </a>
           </div>
-          <div className="font-bold">
+          <div className="font-bold hidden md:block">
             <ul className="flex gap-x-8 cursor-pointer">
               <li>
                 <a href="#sobre-nos">Sobre Nós</a>

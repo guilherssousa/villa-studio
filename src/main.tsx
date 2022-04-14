@@ -2,4 +2,11 @@ import { render } from "preact";
 import { App } from "./app";
 import "./main.css";
 
-render(<App />, document.getElementById("app")!);
+import ScrollObserver from "./utils/scroll-observer";
+
+render(
+  <ScrollObserver>
+    <App />
+  </ScrollObserver>,
+  document.getElementById("app")!
+);

@@ -18,7 +18,7 @@ const Navbar: FunctionalComponent = () => {
                 <a href="#sobre-nos">Sobre Nós</a>
               </li>
               <li>
-                <a href="#trabalhos">Trabalhos</a>
+                <a href="https://example.com">Trabalhos</a>
               </li>
               <li>
                 <a href="#contato">Contato</a>

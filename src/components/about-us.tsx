@@ -40,7 +40,7 @@ const AboutUs: FunctionalComponent = () => {
         </h2>
 
         <div className="md:grid grid-cols-3 mt-8 md:mt-16">
-          <div>
+          <div className="px-2">
             <p className="font-serif text-3xl">Personalidade</p>
             <p className="text-base mt-4 leading-6">
               Construção de uma essência única que traga personalidade através
@@ -48,7 +48,7 @@ const AboutUs: FunctionalComponent = () => {
               ou serviço oferecido pela marca.
             </p>
           </div>
-          <div className="mt-8 md:mt-0">
+          <div className="px-2 mt-8 md:mt-0">
             <p className="font-serif text-3xl">Compreensão</p>
             <p className="text-base mt-4 leading-6">
               Formas falam e tem sua própria identidade e significados
@@ -56,7 +56,7 @@ const AboutUs: FunctionalComponent = () => {
               apontar o norte, além da beleza.
             </p>
           </div>
-          <div className="mt-8 md:mt-0">
+          <div className="px-2 mt-8 md:mt-0">
             <p className="font-serif text-3xl">Personalidade</p>
             <p className="text-base mt-4 leading-6">
               Acreditamos que, para que um negócio consiga comunicar bem usando

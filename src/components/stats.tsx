@@ -21,7 +21,7 @@ const Stat: FunctionalComponent<StatProps> = ({ value, children }) => {
 
 const Stats: FunctionalComponent = () => {
   return (
-    <section className="bg-villa text-white pt-16 pb-36">
+    <section className="bg-villa text-white py-48">
       <div className=" max-w-screen-xl w-full mx-auto px-8 flex flex-col items-center justify-center">
         <h2 className="text-4xl font-serif">
           Entenda nosso impacto em números

@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import AboutUs from "./components/about-us";
+import Stats from "./components/stats";
 
 export function App() {
   return (
@@ -8,6 +9,7 @@ export function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <Stats />
     </div>
   );
 }

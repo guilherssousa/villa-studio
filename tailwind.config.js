@@ -13,6 +13,10 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/bg.webp')",
+        stat: "linear-gradient(to right, #ca8a04 50%, transparent 50%);",
+      },
+      backgroundSize: {
+        statSize: "200%",
       },
     },
   },

@@ -3,7 +3,7 @@ import { FunctionalComponent } from "preact";
 const AboutUs: FunctionalComponent = () => {
   return (
     <section className="bg-villa" id="sobre-nos">
-      <div className="pt-24 max-w-screen-xl mx-auto min-h-screen text-white p-16">
+      <div className="pt-24 max-w-screen-xl mx-auto min-h-screen text-white px-16">
         <h2 className="text-4xl md:text-5xl font-serif">
           Mais que uma agência de Branding.
         </h2>
